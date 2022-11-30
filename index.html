@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Signin/Up Card -->
+    <div class="card  p-4">
+        <h2 class="card-title mb-4">Log in as</h2>
+        <!-- Top section Buttons Wrapper -->
+        <div class="d-flex gap-3 mb-4">
+            <button type="button" class="btn btn-light">Corporate</button>
+            <button type="button" class="btn btn-dark">Passanger</button>
+        </div>
+        <!-- Username Input -->
+        <div class="form-outline mb-3">
+            <label class="form-label" for="form-email">Enter your username or email address</label>
+            <input type="email" id="form-email" class="form-control" placeholder="Username or email address" /> 
+        </div>
+        <!-- Password Input -->
+        <div class="form-outline mb-3">
+            <label class="form-label" for="form-pass">Enter your Password</label>
+            <input type="email" id="form-pass" class="form-control" placeholder="Password" />
+        </div>
+        <!-- Keep me login and forget password -->
+        <div class="row mb-3">
+            <div class="col form-checkbox">
+                <input class="form-checkbox-input" type="checkbox" value="" id="form-checkbox" unchecked />
+                <label class="form-checkbox-label" for="form-checkbox"> Keep me logged in </label>
+            </div>
+            <div class="col forget-pwd">
+                <p class="forget-pwd">Forgot password?</p>
+            </div>
+        </div>
+        <!-- Login Button -->
+        <div class="d-flex mb-4" id="btn-right">
+            <button type="button" class="btn btn-dark" >Log in</button>
+        </div>
+        <!-- Sign Up section -->
+        <div class="d-flex flex-row text-center">
+            <div class="line"></div>
+            <p class=" mx-1">No Account? <strong> Sign Up</strong></p>
+            <div class="line"></div>
+        </div>
+        <!-- Signin/Up with Other Accounts -->
+        <div class="d-flex gap-3 align-items-center" >
+            <button type="button" class="btn icon-text-btn d-flex gap-3 align-items-center px-4"><img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png">Sign in with Google</button>
+
+            <button type="button" class="btn icon-btn"><img class="icon" src="https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico"></button>
+
+            <button type="button" class="btn icon-btn"><img class="icon" src="https://cdn3.iconfinder.com/data/icons/picons-social/57/56-apple-512.png"></button>
+        </div>
+    </div>
+</body>
+</html>
